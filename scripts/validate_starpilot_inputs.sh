@@ -83,7 +83,7 @@ if command -v uv >/dev/null 2>&1; then
 fi
 
 kernel_ref="$(git -C "$DIR/agnos-kernel-sdm845" rev-parse HEAD 2>/dev/null || true)"
-[[ "$kernel_ref" == "03754482cd4a86a8a4c80b9355bba27de304c4ba" ]]
+[[ "$kernel_ref" == "9eb3e40d256221b4ead82e81a2f77dc5a2c0cc20" ]]
 
 echo "StarPilot AGNOS inputs validated (20.2.3, C3/Bluetooth, factory installer, WebRTC ICE fix)."
 
